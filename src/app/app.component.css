@@ -27,6 +27,16 @@
   height: 1.875rem;
   width: max-content;
 }
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-150);
+  height: 2rem;
+  width: max-content;
+}
+.avatar {
+  height: 2rem;
+}
 @media (min-width: 445px) {
   .wrapper {
     width: 24rem;
