@@ -17,7 +17,7 @@
   gap: var(--space-150);
 }
 .category {
-  width: 4.56rem;
+  width: fit-content;
   height: 1.625rem;
   border-radius: 0.25rem;
   background-color: var(--yellow);
