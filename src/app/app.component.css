@@ -1,1 +1,35 @@
 /* app.component.css */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
+  padding: var(--space-300);
+  width: 20.44rem;
+  height: 31.32rem;
+  background-color: white;
+  border-radius: 1.25rem;
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-150);
+}
+.category {
+  width: 4.56rem;
+  height: 1.625rem;
+  border-radius: 0.25rem;
+  background-color: var(--yellow);
+  padding: var(--space-50) var(--space-150);
+}
+.title {
+  height: 1.875rem;
+  width: max-content;
+}
+@media (min-width: 445px) {
+  .wrapper {
+    width: 24rem;
+    height: 32.625rem;
+  }
+}
